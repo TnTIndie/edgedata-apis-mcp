@@ -1,0 +1,76 @@
+{
+  "name": "edgedata-apis-mcp",
+  "mcpName": "io.github.tntindie/edgedata-apis-mcp",
+  "version": "1.1.0",
+  "description": "Official Model Context Protocol (MCP) Server for EdgeData APIs — 23 real-time MCP tools across 11 Cloudflare-edge data APIs: SEC EDGAR, FDA & Clinical Trials, Crypto Funding/DeFi, LLM Pricing, OSS Security, FX/World Bank/US Treasury, Prediction Markets, Shopify, Tech Stack, Remote ATS Jobs, and Aviation Weather/Earthquakes/Space Hazards.",
+  "type": "module",
+  "author": "EdgeData APIs",
+  "homepage": "https://github.com/TnTIndie/edgedata-apis-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TnTIndie/edgedata-apis-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TnTIndie/edgedata-apis-mcp/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "edgedata-apis-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "smithery.yaml",
+    "Dockerfile"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "rapidapi",
+    "sec-edgar",
+    "fda",
+    "clinical-trials",
+    "crypto-funding",
+    "defi",
+    "prediction-markets",
+    "llm-pricing",
+    "shopify",
+    "osv-security",
+    "cisa-kev",
+    "forex",
+    "world-bank",
+    "us-treasury",
+    "aviation-weather",
+    "metar",
+    "earthquakes",
+    "space-weather",
+    "remote-jobs",
+    "tech-stack",
+    "claude-desktop",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "ai-agents"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node tests/smoke.mjs",
+    "prepublishOnly": "npm run typecheck && npm run build && npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
