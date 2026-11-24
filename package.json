@@ -1,6 +1,6 @@
 {
   "name": "edgedata-apis-mcp",
-  "mcpName": "io.github.tntindie/edgedata-apis-mcp",
+  "mcpName": "io.github.TnTIndie/edgedata-apis-mcp",
   "version": "1.1.0",
   "description": "Official Model Context Protocol (MCP) Server for EdgeData APIs — 23 real-time MCP tools across 11 Cloudflare-edge data APIs: SEC EDGAR, FDA & Clinical Trials, Crypto Funding/DeFi, LLM Pricing, OSS Security, FX/World Bank/US Treasury, Prediction Markets, Shopify, Tech Stack, Remote ATS Jobs, and Aviation Weather/Earthquakes/Space Hazards.",
   "type": "module",
