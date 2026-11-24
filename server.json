@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TnTIndie/edgedata-apis-mcp",
+  "title": "EdgeData APIs MCP Server",
+  "description": "23 real-time MCP tools across 11 EdgeData APIs: SEC, FDA, Crypto, LLM, OSV, FX, Aviation & Quakes.",
+  "websiteUrl": "https://rapidapi.com/user/tamnt",
+  "version": "1.1.0",
+  "repository": {
+    "url": "https://github.com/TnTIndie/edgedata-apis-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "edgedata-apis-mcp",
+      "version": "1.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "RAPIDAPI_KEY",
+          "description": "Your free RapidAPI API key from https://rapidapi.com/user/tamnt",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
