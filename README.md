@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/edgedata-apis-mcp.svg)](https://www.npmjs.com/package/edgedata-apis-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/TnTIndie/edgedata-apis-mcp/blob/main/LICENSE)
+[![EdgeData APIs MCP server](https://mcprush.com/badge/edgedata-apis-mcp/card.svg)](https://mcprush.com/to/edgedata-apis-mcp?ref=badge)
 
 Give **Claude Desktop**, **Cursor**, **Windsurf**, **VS Code**, **Claude Code**, **Antigravity**, and any MCP-compatible AI agent instant access to **11 real-time, Cloudflare-edge-cached data APIs** (**23 curated MCP tools**) powered by **EdgeData APIs** on RapidAPI Hub.
 
